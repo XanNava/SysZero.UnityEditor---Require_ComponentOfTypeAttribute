@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public partial class Attributes_RequireComponentOfType_ExampleMain : MonoBehaviour {
+public partial class Require_ComponentOfTypeAttribute_ExampleMain : MonoBehaviour {
 	[Require_ComponentOfType(typeof(ImInterfaceExample))]
 	public Component target;
 	private ImInterfaceExample _target;

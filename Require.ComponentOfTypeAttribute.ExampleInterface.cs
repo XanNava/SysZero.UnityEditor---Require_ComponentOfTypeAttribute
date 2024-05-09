@@ -1,16 +1,11 @@
 using UnityEngine;
 
-public class Require.ComponentOfTypeAttribute.ExampleInterface : MonoBehaviour
-{
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
-    {
-        
-    }
+public class Require_ComponentOfTypeAttribute_ExampleInterface : MonoBehaviour, ImInterfaceExample {
+	public void DoSomething() {
+		Debug.Log("Did it.");
+	}
+}
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+public interface ImInterfaceExample {
+	void DoSomething();
 }
